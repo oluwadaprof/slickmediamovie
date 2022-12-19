@@ -1,0 +1,31 @@
+.category{
+    margin-top: 6rem;
+    p{
+        color: black;
+        text-align: left;
+    }
+    .movies::-webkit-scrollbar {
+        display: none;
+      }
+    .movies{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 1.8rem;
+        overflow-x: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none; 
+        width: 100%;
+        .movie{
+            height: 16rem;
+            width: 17rem;
+            border-radius: 6px;
+            background: black   ;
+            p{
+                text-align: center;
+                margin-top: 40%;
+                font-size: 1.2rem;
+                color:white;
+            }
+        }
+    }
+}

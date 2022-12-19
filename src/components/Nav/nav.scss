@@ -1,0 +1,48 @@
+nav {
+  background-color: #292929;
+  height: 5.8rem;
+  width: 100vw;
+  color: white;
+  display: grid;
+  p {
+    color: white;
+    padding: 0.4rem;
+    border: 1px solid white;
+    font-weight: 500;
+    position: absolute;
+    height: 2rem;
+    font-size: 1.3rem;
+    width: 7rem;
+    margin-left: 3rem;
+  }
+}
+
+/* On tablet screens 1024px or less */
+// @media screen and (max-width: 1024px) {
+//   nav {
+//     p {
+//       margin-left: 40%;
+//     }
+//   }
+// }
+@media screen and (min-width: 720px) and (max-width: 1020px) {
+  nav {
+    p {
+      margin-left: 40%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    p {
+      margin-left: 43%;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  nav {
+    p {
+      margin-left: 40%;
+    }
+  }
+}

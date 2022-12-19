@@ -1,0 +1,17 @@
+.search {
+  form {
+    display: grid;
+    text-align: left;
+    label {
+      margin-bottom: 0.4rem;
+      font-size: 1.2rem;
+    }
+    input {
+      height: 2rem;
+      padding-left: 1rem;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
