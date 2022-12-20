@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Search = () => {
   //handle the typed input and stores in a state
   const [input, setInput] = useState("");
-  const [searchedMovies, setSearchedMovies] = useState([]);
+  const [ setSearchedMovies] = useState([]);
 
   //set the searched input to query the api
   const url = `http://www.omdbapi.com/?t=${input}&apikey=6a2d6091`;
@@ -23,7 +23,7 @@ const Search = () => {
       }).catch((err) => {
         console.log(err)
       })
-  }, []);
+  }, );
 
   // console.log("worked", searchedMovies);
 
