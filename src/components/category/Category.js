@@ -23,18 +23,21 @@ const Category = () => {
       }).catch((err) => {
         console.log(err)
       });
-  }, []);
+  }, );
 
   //sort api results into movie and series categories
- const sortedCategory = movies.sort((s,m)=> {
+ const sortedCategory = movies.sort((s,m) => {
   //convert to lowercase
    const nameA = s.Type.toUpperCase()
    const nameB = m.Type.toUpperCase()
-
+ 
    //re-arrange alphabetically
    if (nameA > nameB){
     return -1
    }
+
+   return nameA;
+ 
  })
 
 //split the categories in two
