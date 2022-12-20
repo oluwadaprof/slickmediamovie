@@ -6,14 +6,16 @@ import Search from "../components/search/Search";
 import "./home.scss";
 
 const Home = () => {
+ 
+
   return (
     <div className="home">
       <Nav />
       <Hero />
       <div className="content">
-        <Search />
-        <Category />
-        <Category />
+        <Search  />
+        <Category  />
+      
       </div>
     </div>
   );

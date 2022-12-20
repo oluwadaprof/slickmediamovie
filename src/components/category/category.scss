@@ -8,9 +8,10 @@
         display: none;
       }
     .movies{
+       
         display: grid;
         grid-auto-flow: column;
-        gap: 1.8rem;
+        gap: 1.2rem;
         overflow-x: scroll;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none; 
